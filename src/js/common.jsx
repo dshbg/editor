@@ -69,10 +69,12 @@ export class InputGroupM extends Component {
 
 export class MainBody extends Component {
   render() {
-    return <Container fluid>
-      <Row>
-        <Col md={{ size: 6, offset: 3 }}>
-          {this.props.children}
+    return <Container fluid style={{ height: "100%" }}>
+      <Row style={{ height: "100%" }}>
+        <Col md={{ size: 6, offset: 3 }} style={{ height: "100%" }}>
+          <div style={{ display: "flex", flexDirection: "column", height: "100%" }}>
+            {this.props.children}
+          </div>
         </Col>
       </Row>
     </Container >;

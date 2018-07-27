@@ -3,9 +3,7 @@ import ReactDOM from 'react-dom';
 //import {hashHistory,Route,Router,IndexRoute} from 'react-router';
 import { App } from './js/App';
 import './css/App.css';
-import "./css/bootstrap-slider.css";
-import "./css/bootstrap-datetimepicker.css";
-import "./css/bootstrap-switch.css";
+import "./css/minty.css";
 //import {Login} from './js/comps/login';
 
 
