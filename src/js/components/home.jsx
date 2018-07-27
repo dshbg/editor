@@ -16,9 +16,7 @@ export class Home extends Component {
   render() {
     return (
       <MainBody>
-        <Col md={12}>
-          <Link to="/id/123">123</Link>
-        </Col>
+        <Link to="/id/123">123</Link>
       </MainBody>
     );
   }

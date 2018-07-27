@@ -14,7 +14,7 @@ import {
 
 import PropTypes from "prop-types";
 
-import { Row, Container } from "reactstrap";
+import { Row, Container, Col } from "reactstrap";
 
 export const Icon = (props) => {
   let { i = "", size = 2, className = "" } = props;
@@ -71,8 +71,10 @@ export class MainBody extends Component {
   render() {
     return <Container fluid>
       <Row>
-        {this.props.children}
+        <Col md={{ size: 6, offset: 3 }}>
+          {this.props.children}
+        </Col>
       </Row>
-    </Container>;
+    </Container >;
   }
 }

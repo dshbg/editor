@@ -15,6 +15,8 @@ import {
   Home
 } from './components/home';
 
+import { SettingPanel } from './components/setting';
+
 import { Test } from "./components/test";
 
 export class App extends Component {
@@ -25,6 +27,7 @@ export class App extends Component {
           <div>
           </div>
           <Route exact path="/" component={Home} />
+          <Route exact path="/setting" component={SettingPanel} />
           <Route exact path="/id/:id" component={Test} />
         </div>
       </Router>
