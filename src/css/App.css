@@ -1,5 +1,6 @@
 html,body {
   height: 100%;
+  background-color: #C7EDCC;
 }
 
 #root {
@@ -8,4 +9,10 @@ html,body {
 
 .height100{
   height: 100%;
+}
+
+.input-area{
+  font-size: 1em;
+  line-height: 1.2em;
+  border: solid 5px #C7EDCC;
 }

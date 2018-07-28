@@ -1,6 +1,7 @@
 import React, {
   Component
 } from 'react';
+import { MainBody } from '../common';
 
 export class SettingPanel extends Component {
   constructor(props) {
@@ -8,6 +9,6 @@ export class SettingPanel extends Component {
   }
 
   render() {
-    return "setting";
+    return <MainBody></MainBody>;
   }
 }

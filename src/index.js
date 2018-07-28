@@ -2,8 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 //import {hashHistory,Route,Router,IndexRoute} from 'react-router';
 import { App } from './js/App';
-import './css/App.css';
 import "./css/minty.css";
+//import "./css/font-awesome.css";
+import './css/App.css';
+
 //import {Login} from './js/comps/login';
 
 

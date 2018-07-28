@@ -31,7 +31,7 @@ module.exports = {
   entry: {
     index: "./src/index.js"
   },
-  //  target: "electron-main",
+    target: "electron-main",
   output: {
     // The build folder.
     path: path.resolve(publicPath, "build"),
